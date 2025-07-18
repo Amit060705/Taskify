@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="taskify.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>
+                <center>Taskify</center>
+            </h1>
+            <center>
+                <div class="todoBox">
+                    <div id="todo" class="card-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <h2>To Do</h2>
+                        <div>
+                            <input type="text" name="" id="txt" placeholder="Add Task">
+                        </div>
+                    </div>
+                    <div id="inprogress" class="card-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <h2>In Progress</h2>
+                    </div>
+                    <div id="underreview" class="card-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <h2>Under Review</h2>
+                    </div>
+                    <div id="finished" class="card-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <h2>Finished</h2>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+    <script src="taskify.js"></script>
+</body>
+
+</html>

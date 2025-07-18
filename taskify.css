@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 95%;
+    height: 900px;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.box h1 {
+    color: rgb(0, 0, 0);
+}
+
+.todoBox {
+    /* border: 2px solid black; */
+    height: 800px;
+    width: 1700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container {
+    border: 2px solid blue;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    background-color: bisque;
+}
+
+
+.card {
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    background-color: rgb(224, 222, 252);
+}
+button{
+    width: 403px;
+    margin: 7px 9px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.865);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+#txt{
+    margin-top: 5px;
+    width: 93%;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.865);
+    color: white;
+    border-style: none;
+}
+.task{
+    cursor: move;
+    margin-top: 5px;
+}
